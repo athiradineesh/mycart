@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    height: 12vh;
+}
+.logo img{
+    padding: 1vh;
+    width: 15vh;
+    height: 10vh;
+}
+.container{
+    min-height: calc(100vh - 24vh);
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+h2{
+    padding: 26px 8px;
+}
+.card-item {
+    width: 13vw;
+    margin-left: 2vw;
+    
+}
+.lines {
+    text-align: center;
+}
+.search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+}
+.slider {
+    display: flex;
+    align-items: center;
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.slider img{
+    width: 100vw;
+}
+
+.card{
+    background-color: #e7e72c;
+    max-width: 91vw;
+    margin: auto;
+}
+.card2{
+    max-width: 91vw;
+    margin: auto;
+}
+.items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    list-style: none;
+    padding: 5vh;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:lightyellow;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(231, 231, 44);
+    color: black;
+    height: 12vh;
+}

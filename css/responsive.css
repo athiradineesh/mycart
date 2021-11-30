@@ -1,0 +1,29 @@
+.search input{
+    width: 30vw;
+}
+@media screen and (max-width:1000px){
+    nav {
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    .search {
+        justify-content: center;
+    }
+    header {
+        height: 30vh;
+    }
+    .items {
+        overflow: scroll;
+    }
+    .card-item {
+        width: 32vw;
+    }
+}

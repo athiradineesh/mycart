@@ -1,0 +1,17 @@
+.all-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bold;
+}
